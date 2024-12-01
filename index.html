@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabic Grammar: Verb Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Arabic Verb Forms (ماض, مضارع, أمر, مصدر)</h1>
+    <p>Select a verb or type your own to see its forms in Arabic grammar.</p>
+
+    <div class="container">
+        <div class="content">
+            <h2>Choose or Enter a Verb</h2>
+            <select id="verb-select">
+                <option value="ذهب">ذهب (Go)</option>
+                <option value="أكل">أكل (Eat)</option>
+                <option value="كتب">كتب (Write)</option>
+                <option value="قرء">قرء (Read)</option>
+            </select>
+            <input 
+                type="text" 
+                id="custom-verb" 
+                placeholder="Enter a custom verb (e.g., شرب)" 
+                aria-label="Enter a custom verb">
+            <button id="show-verb-forms">Show Verb Forms</button>
+            <div id="grammar-info" class="grammar-info">
+                <p>Select or enter a verb to see its forms.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
